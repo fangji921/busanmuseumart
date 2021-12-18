@@ -1,0 +1,561 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>부산시립미술관</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/mobile.css" type="text/css" rel="stylesheet">
+    <link href="css/pc.css" type="text/css" rel="stylesheet">
+    <link href="css/slick.css" type="text/css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cal.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="https://kit.fontawesome.com/782f37f3ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="cover"></div>
+    <div id="wrap">
+        <header>
+            <div class="header-inner">
+                <h1 class="top-logo">
+                    <a href="#"><img src="img/logo.png" alt="부산시립미술관로고" /></a>
+                </h1>
+                <button class="menu-btn mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu-wrapper pc">
+                    <li class="top-menu"><a href="#">미술관소개</a></li>
+                    <li class="top-menu"><a href="#">전시</a></li>
+                    <li class="top-menu"><a href="#">교육/행사</a></li>
+                    <li class="top-menu"><a href="#">소장품</a></li>
+                    <li class="top-menu"><a href="#">참여마당</a></li>
+                    <li class="top-menu"><a href="#">이용안내</a></li>
+                </ul>
+                <div class="submenu-wrapper pc">
+                    <ul class="sub-menu">
+                        <li><a href="#">연혁 및 시설</a></li>
+                        <li><a href="#">조직 및 활동</a></li>
+                        <li><a href="#">운영규정</a></li>
+                    </ul>
+                    <ul class="sub-menu">
+                        <li><a href="#">기획전시</a></li>
+                        <li><a href="#">전시일정</a></li>
+                        <li><a href="#">연간전시계획</a></li>
+                        <li><a href="#">VR전시</a></li>
+                    </ul>
+                    <ul class="sub-menu">
+                        <li><a href="#">교육프로그램</a></li>
+                        <li><a href="#">문화행사</a></li>
+                    </ul>
+                    <ul class="sub-menu">
+                        <li><a href="#">기증안내</a></li>
+                        <li><a href="#">소장품대여안내</a></li>
+                        <li><a href="#">소장품검색</a></li>
+                        <li><a href="#">도서검색</a></li>
+                    </ul>
+                    <ul class="sub-menu">
+                        <li><a href="#">새소식</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">게시판</a></li>
+                    </ul>
+                    <ul class="sub-menu">
+                        <li><a href="#">관람안내</a></li>
+                        <li><a href="#">오시는길</a></li>
+                        <li><a href="#">시설안내</a></li>
+                        <li><a href="#">관람예절</a></li>
+                        <li><a href="#">대관안내</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="mo-gnb mobile">
+                <ul class="menu-wrapper">
+                    <li class="top-menu">
+                        <a href="#">
+                            <p>미술관소개</p>
+                            <div class="view-more mobile"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">연혁 및 시설</a></li>
+                            <li><a href="#">조직 및 활동</a></li>
+                            <li><a href="#">운영규정</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-menu"><a href="#">
+                            <p>전시</p>
+                            <div class="view-more mobile"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">기획전시</a></li>
+                            <li><a href="#">전시일정</a></li>
+                            <li><a href="#">연간전시계획</a></li>
+                            <li><a href="#">VR전시</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-menu"><a href="#">
+                            <p>교육/행사</p>
+                            <div class="view-more mobile"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">교육프로그램</a></li>
+                            <li><a href="#">문화행사</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-menu"><a href="#">
+                            <p>소장품</p>
+                            <div class="view-more mobile"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">기증안내</a></li>
+                            <li><a href="#">소장품대여안내</a></li>
+                            <li><a href="#">소장품검색</a></li>
+                            <li><a href="#">도서검색</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-menu"><a href="#">
+                            <p>참여마당</p>
+                            <div class="view-more mobile"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">새소식</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">게시판</a></li>
+                        </ul>
+                    </li>
+                    <li class="top-menu"><a href="#">
+                            <p>이용안내</p>
+                            <div class="view-more"><img src="img/header_more.png" alt="더보기"></div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">관람안내</a></li>
+                            <li><a href="#">오시는길</a></li>
+                            <li><a href="#">시설안내</a></li>
+                            <li><a href="#">관람예절</a></li>
+                            <li><a href="#">대관안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sns">
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sec01">
+            <div class="sec-inner">
+                <div class="main-wrapper">
+                    <div class="exhb-poster">
+                        <img src="img/sec1_exhibit1_mobile.jpg" class="mobile" alt="전시포스터_1" />
+                        <img src="img/sec1_exhibit1_pc.jpg" class="pc" alt="전시포스터_1" />
+                    </div>
+                    <div class="exhb-box">
+                        <div class="exhb-info">
+                            <h4>이토록 아름다운: The Nature of Art</h4>
+                            <p class="date">2021-04-23 ~ 2021-09-12</p>
+                            <P class="text">[이토록 아름다운]전은 코로나 시대를 살아가는 우리들에게 예술이 주는 위로와 치유의 메세지를 전달하고 새로운 시대를 맞이할 용기를
+                                일깨우고자 기획되었다.</P>
+                            <div class="view-more">
+                                <p><a href="#">VIEW MORE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec02">
+            <div class="sec-inner">
+                <div class="title-box">
+                    <h3 class="title">
+                        이달의 전시
+                    </h3>
+                    <div class="month-wrapper">
+                        <div class="arrow left"><i class="fas fa-chevron-left"></i></div>
+                        <h4 class="month"></h4>
+                        <div class="arrow right"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                    <p class="subtext pc">부산시립미술관에서 준비한 다양한 전시회를 만나보세요. </p>
+                </div>
+                <div class="calander-wrapper">
+                    <ul class="calander-bar">
+                    </ul>
+                </div>
+                <div class="exhibit-wrapper">
+                    <div class="exhibit-bar">
+                        <div class="exhibit">
+                            <div class="exhibit-img">
+                                <a href="#">
+                                    <div class="view-more pc">
+                                        <p>VIEW MORE</p>
+                                    </div>
+                                    <img src="img/sec1_exhibit1_mobile.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="exhibit-info">
+                                <p class="ex-name">이토록 아름다운: The Nature of Art</p>
+                                <p class="ex-place">본관3층</p>
+                            </div>
+                        </div>
+                        <div class="exhibit">
+                            <div class="exhibit-img">
+                                <a href="#">
+                                    <div class="view-more pc">
+                                        <p>VIEW MORE</p>
+                                    </div>
+                                    <img src="img/sec1_exhibit2_mobile.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="exhibit-info">
+                                <p class="ex-name">소리산책: SOUND WALK</p>
+                                <p class="ex-place">본관3층</p>
+                            </div>
+                        </div>
+                        <div class="exhibit">
+                            <div class="exhibit-img">
+                                <a href="#">
+                                    <div class="view-more pc">
+                                        <p>VIEW MORE</p>
+                                    </div>
+                                    <img src="img/sec1_exhibit3_mobile.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="exhibit-info">
+                                <p class="ex-name">거대한 일상: 지층의 역전</p>
+                                <p class="ex-place">본관3층</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="view-more"><a href="#">VIEW MORE&rarr;</a></p>
+            </div>
+        </section>
+        <section class="sec03">
+            <span class="obj"></span>
+            <div class="sec-inner">
+                <div class="article-wrapper">
+                    <div class="text-wrapper">
+                        <div class="title-box">
+                            <h3 class="title">교육/행사</h3>
+                            <h4 class="title-img">
+                                <img src="img/sec3_side_pic.png" alt="lecture&event" />
+                            </h4>
+                        </div>
+                        <p class="text">부산시립미술관에선
+                            <br />시민 여러분과 함께 할 수 있는
+                            <br />각종 교육강좌 및 문화행사를
+                            <br />실시하고 있습니다
+                        </p>
+                        <div class="btn-wrapper">
+                            <div class="view-more">
+                                <a href="#">VIEW MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lec-wrapper">
+                        <div class="container">
+                            <div class="slide-wrapper">
+                                <div class="lec-item">
+                                    <div class="lec-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec3_lec1.jpg" alt="강좌" />
+                                    </div>
+                                    <div class="lec-info">
+                                        <p>《빌 비올라, 조우》전시연계강연</p>
+                                        <p>: 비디오, 빌 비올라, 시간성</p>
+                                    </div>
+                                </div>
+                                <div class="lec-item">
+                                    <div class="lec-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec3_lec2.jpg" alt="강좌" />
+                                    </div>
+                                    <div class="lec-info">
+                                        <p>《빌 비올라, 조우》전시연계강연</p>
+                                        <p>빌 비올라의 비디오, 그리고 시네마</p>
+                                    </div>
+                                </div>
+                                <div class="lec-item">
+                                    <div class="lec-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec3_lec3.png" alt="강좌" />
+                                    </div>
+                                    <div class="lec-info">
+                                        <p>2021년 상반기 시민강좌1 </p>
+                                        <p>추상을 넘어서</p>
+                                    </div>
+                                </div>
+                                <div class="lec-item">
+                                    <div class="lec-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec3_lec4.jpg" alt="강좌" />
+                                    </div>
+                                    <div class="lec-info">
+                                        <p>중국현대미술읽기</p>
+                                        <p>20세기 후반 미술을 중심으로</p>
+                                    </div>
+                                </div>
+                                <div class="lec-item">
+                                    <div class="lec-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec3_lec5.jpg" alt="강좌" />
+                                    </div>
+                                    <div class="lec-info">
+                                        <p>청소년 온라인 진로체험</p>
+                                        <p>《세상을 움직여봐-Thinking Moving》</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec04">
+            <span class="obj"></span>
+            <div class="sec-inner">
+                <div class="article-wrapper">
+                    <div class="text-wrapper">
+                        <div class="title-box">
+                            <h3 class="title">내 손안의<img src="img/sec4_logo.png" alt="bma" /></h3>
+                            <h4 class="title-img">
+                                <img src="img/sec4_side_pic.png" alt="vr exhibition" />
+                            </h4>
+                        </div>
+                        <p class="text">부산시립미술관의
+                            <br />다양한 전시를
+                            <br />이제 스마트폰에서도 만나보세요
+                        </p>
+                        <div class="btn-wrapper">
+                            <div class="view-more"><a href="#">VIEW MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="vr-wrapper">
+                        <div class="container">
+                            <div class="slide-wrapper">
+                                <div class="vr-item">
+                                    <div class="vr-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec4_vr1.jpg" alt="VR전시" />
+                                    </div>
+                                    <div class="vr-info">
+                                        <p>《1960-70년대 부산미술 : 끝이 없는 시작》</p>
+                                        <p>
+                                            VR전시</p>
+                                    </div>
+                                </div>
+                                <div class="vr-item">
+                                    <div class="vr-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec4_vr2.jpg" alt="VR전시" />
+                                    </div>
+                                    <div class="vr-info">
+                                        <p>《한국현대미술작가조명Ⅲ, 김종학》</p>
+                                        <p>VR전시</p>
+                                    </div>
+                                </div>
+                                <div class="vr-item">
+                                    <div class="vr-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec4_vr3.jpg" alt="VR전시" />
+                                    </div>
+                                    <div class="vr-info">
+                                        <p>《시오타 치하루 : 영혼의 떨림》</p>
+                                        <p>VR전시</p>
+                                    </div>
+                                </div>
+                                <div class="vr-item">
+                                    <div class="vr-img">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <img src="img/sec4_vr4.jpg" alt="VR전시" />
+                                    </div>
+                                    <div class="vr-info">
+                                        <p>제니퍼 스타인 캠프,</p>
+                                        <p>마담퀴리 Madame Curie</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec05">
+            <span class="obj"></span>
+            <div class="sec-inner">
+                <h3 class="title">
+                    <img src="img/sec4_logo.png" alt="bma" />소식
+                </h3>
+                <div class="article-wrapper">
+                    <div class="news-column column-left">
+                        <div class="column01">
+                            <div class="newsbox"><a href="#">
+                                    <div class="news-imgbox">
+                                        <img src="img/sec5_pic.jpg" alt="공지 이미지" />
+                                    </div>
+                                    <p class="news-type">[이벤트]</p>
+                                    <p class="news-title">[BMA 챌린지]5월 어린이날 이벤트 안내</p>
+                                    <p class="date">
+                                        2021-05-04
+                                        <span>조회수 486</span>
+                                    </p>
+                                    <p class="text">5월 어린이날을 맞이하여 부산시립미술관 어린이갤러리 방문이벤트를 준비했습니다. 전시 워크북 활동사진이나 전시 인증사진을
+                                        올려주세요! 어린이 참여자 모두에게 기념품을 증정하니 많은 관심과 참여 부탁드립니다.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-column column-right">
+                        <div class="column02">
+                            <div class="newsbox"><a href="#">
+                                    <div class="news-imgbox pc">
+                                        <img src="img/sec5_pic2.jpg" alt="공지 이미지" />
+                                    </div>
+                                    <p class="news-type">[공지]</p>
+                                    <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>
+                                    <p class="date">
+                                        2021-03-10
+                                        <span>조회수 486</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="newsbox">
+                                <a href="#">
+                                    <div class="news-imgbox pc">
+                                        <img src="img/sec5_pic3.jpg" alt="공지 이미지" />
+                                    </div>
+                                    <p class="news-type">[공지]</p>
+                                    <p class="news-title">[빌 비올라, 조우]展 연계강연 개최 안내</p>
+                                    <p class="date">
+                                        2021-03-10
+                                        <span>조회수 486</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column03">
+                            <div>
+                                <div class="newsbox"><a href="#">
+                                        <p class="news-type">[공지]</p>
+                                        <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>
+                                        <p class="date">
+                                            2021-03-10
+                                            <span>조회수 486</span>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="newsbox"><a href="#">
+                                        <p class="news-type">[공지]</p>
+                                        <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>
+                                        <p class="date">
+                                            2021-03-10
+                                            <span>조회수 486</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pc">
+                                <div class="newsbox"><a href="#">
+                                        <p class="news-type">[공지]</p>
+                                        <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>
+                                        <p class="date">
+                                            2021-03-10
+                                            <span>조회수 486</span>
+                                        </p>
+                                    </a>
+                                </d>
+                                <div class="newsbox"><a href="#">
+                                        <p class="news-type">[공지]</p>
+                                        <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>
+                                        <p class="date">
+                                            2021-03-10
+                                            <span>조회수 486</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-inner">
+                <div class="top-footer">
+                    <div class="left-footer">
+                        <h1 class="footer-logo"><a href="#"><img src="img/footer_logo.png" alt="부산시립미술관로고" /></a></h1>
+                        <p class="address">
+                            (우 48060)
+                            <br />부산광역시 해운대구 APEC로 58 (우동) 부산시립미술관
+                            <br />전화 : 051-744-2602
+                        </p>
+                        <ul class="sns">
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="right-footer pc">
+                        <div class="mailing-wrapper">
+                            <h5 class="title">시립미술관 행사알림 서비스 신청</h5>
+                            <div class="input-row"><input type="text" placeholder="성함"></div>
+                            <div class="input-row"><input type="text" placeholder="휴대폰번호"></div>
+                            <div class="input-row"><input type="text" placeholder="이메일주소"></div>
+                            <div class="check"><input type="checkbox">
+                                <p>개인정보 수집ㆍ이용에 동의합니다</p>
+                                <p><a href="#">[약관보기]</a></p>
+                            </div>
+                            <input type="submit" class="submit-btn">
+                        </div>
+                    </div>
+                </div>
+                <div class="btm-footer">
+                    <ul class="footer-menu">
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">대관문의</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">COPYRIGHT(C) BUSAN METROPOLITAN CITY ALL RIGHT RESERVED</div>
+        </footer>
+    </div>
+</body>
+
+</html>
