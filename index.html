@@ -19,10 +19,64 @@
     <script src="js/slide.js"></script>
     <script src="js/scroll.js"></script>
     <script src="https://kit.fontawesome.com/782f37f3ec.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
     <div id="cover"></div>
     <div id="wrap">
+        <div class="quickmenu pc">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>
+                            <ion-icon name="time-outline"></ion-icon>
+                        </span>
+                        <span>관람시간
+                            <br />안내</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <ion-icon name="ticket-outline"></ion-icon>
+                        </span>
+                        <span>관람료
+                            <br />안내</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <ion-icon name="car-outline"></ion-icon>
+                        </span>
+                        <span>주차장
+                            <br />안내</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <ion-icon name="map-outline"></ion-icon>
+                        </span>
+                        <span>오시는 길</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span>단체관람
+                            <br />예약</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="top-btn">
+                <a href="#">top</a>
+            </div>
+        </div>
         <header>
             <div class="header-inner">
                 <h1 class="top-logo">
@@ -165,7 +219,7 @@
                             <P class="text">[이토록 아름다운]전은 코로나 시대를 살아가는 우리들에게 예술이 주는 위로와 치유의 메세지를 전달하고 새로운 시대를 맞이할 용기를
                                 일깨우고자 기획되었다.</P>
                             <div class="view-more">
-                                <p><a href="#">VIEW MORE</a></p>
+                                <p><a href="#">더 보기 &rarr;</a></p>
                             </div>
                         </div>
                     </div>
@@ -195,13 +249,14 @@
                             <div class="exhibit-img">
                                 <a href="#">
                                     <div class="view-more pc">
-                                        <p>VIEW MORE</p>
+                                        <p>더 보기</p>
                                     </div>
                                     <img src="img/sec1_exhibit1_mobile.jpg" alt="" />
                                 </a>
                             </div>
                             <div class="exhibit-info">
                                 <p class="ex-name">이토록 아름다운: The Nature of Art</p>
+                                <p class="ex-date">2021-04-23~2021-09-12</p>
                                 <p class="ex-place">본관3층</p>
                             </div>
                         </div>
@@ -209,33 +264,35 @@
                             <div class="exhibit-img">
                                 <a href="#">
                                     <div class="view-more pc">
-                                        <p>VIEW MORE</p>
+                                        <p>더 보기</p>
                                     </div>
                                     <img src="img/sec1_exhibit2_mobile.png" alt="" />
                                 </a>
                             </div>
                             <div class="exhibit-info">
                                 <p class="ex-name">소리산책: SOUND WALK</p>
-                                <p class="ex-place">본관3층</p>
+                                <p class="ex-date">2021-01-29~2021-12-19</p>
+                                <p class="ex-place">본관 지하1층</p>
                             </div>
                         </div>
                         <div class="exhibit">
                             <div class="exhibit-img">
                                 <a href="#">
                                     <div class="view-more pc">
-                                        <p>VIEW MORE</p>
+                                        <p>더 보기</p>
                                     </div>
                                     <img src="img/sec1_exhibit3_mobile.png" alt="" />
                                 </a>
                             </div>
                             <div class="exhibit-info">
                                 <p class="ex-name">거대한 일상: 지층의 역전</p>
-                                <p class="ex-place">본관3층</p>
+                                <p class="ex-date">2021-03-31~2021-08-22</p>
+                                <p class="ex-place">본관2층 대전시실</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p class="view-more"><a href="#">VIEW MORE&rarr;</a></p>
+                <p class="view-more"><a href="#">더 보기 &rarr;</a></p>
             </div>
         </section>
         <section class="sec03">
@@ -256,7 +313,7 @@
                         </p>
                         <div class="btn-wrapper">
                             <div class="view-more">
-                                <a href="#">VIEW MORE</a>
+                                <a href="#">더 보기 &rarr;</a>
                             </div>
                         </div>
                     </div>
@@ -350,7 +407,7 @@
                             <br />이제 스마트폰에서도 만나보세요
                         </p>
                         <div class="btn-wrapper">
-                            <div class="view-more"><a href="#">VIEW MORE</a></div>
+                            <div class="view-more"><a href="#">더 보기 &rarr;</a></div>
                         </div>
                     </div>
                     <div class="vr-wrapper">
@@ -365,9 +422,8 @@
                                         <img src="img/sec4_vr1.jpg" alt="VR전시" />
                                     </div>
                                     <div class="vr-info">
-                                        <p>《1960-70년대 부산미술 : 끝이 없는 시작》</p>
-                                        <p>
-                                            VR전시</p>
+                                        <p>《1960-70년대 부산미술:끝이 없는 시작》</p>
+                                        <p>VR전시</p>
                                     </div>
                                 </div>
                                 <div class="vr-item">
@@ -379,7 +435,7 @@
                                         <img src="img/sec4_vr2.jpg" alt="VR전시" />
                                     </div>
                                     <div class="vr-info">
-                                        <p>《한국현대미술작가조명Ⅲ, 김종학》</p>
+                                        <p>《한국현대미술작가조명Ⅲ,김종학》</p>
                                         <p>VR전시</p>
                                     </div>
                                 </div>
@@ -392,7 +448,7 @@
                                         <img src="img/sec4_vr3.jpg" alt="VR전시" />
                                     </div>
                                     <div class="vr-info">
-                                        <p>《시오타 치하루 : 영혼의 떨림》</p>
+                                        <p>《시오타 치하루:영혼의 떨림》</p>
                                         <p>VR전시</p>
                                     </div>
                                 </div>
@@ -498,7 +554,7 @@
                                             <span>조회수 486</span>
                                         </p>
                                     </a>
-                                </d>
+                                </div>
                                 <div class="newsbox"><a href="#">
                                         <p class="news-type">[공지]</p>
                                         <p class="news-title">코로나 사망자 애도 프로젝트[늦은 배웅]</p>

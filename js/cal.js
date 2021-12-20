@@ -23,13 +23,14 @@ $(document).ready(function () {
 
     //     thisMonth--
         
+    //     console.log(thisMonth);
     //     if(thisMonth<thisMonth){
     //         alert("현재월 기준 이전달까지 이동가능합니다")
     //     }
         
     // })
     
-//    $(".calande_wrap .calander_bar").find("li").eq(today - 1).addClass("today")
+   $(".calander-wrapper .calander-bar").find("li").eq(today - 1).addClass("today")
 
     
     

@@ -122,7 +122,7 @@ header .mo-gnb .menu-wrapper {
 
 header .mo-gnb .top-menu {
     margin: 10px 0px;
-    font-size: 1.25rem;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -157,7 +157,7 @@ header .mo-gnb .sub-menu {
 
 header .mo-gnb .sub-menu li {
     padding: 5px 0px;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -304,12 +304,12 @@ header .mo-gnb .sns li:last-child {
 }
 
 .sec01 .exhb-info h4 {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 25px;
 }
 
 .sec01 .exhb-info p {
-    font-size: 0.875rem;
+    font-size: 14px;
     margin: 10px 0px;
 }
 
@@ -353,7 +353,7 @@ header .mo-gnb .sns li:last-child {
 }
 
 .sec02 .title-box .title {
-    font-size: 1.125rem;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -365,13 +365,13 @@ header .mo-gnb .sns li:last-child {
 
 .sec02 .title-box .month {
     padding: 0px 5px;
-    font-size: 1.56rem;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .sec02 .title-box .arrow i {
-    font-size: 1rem;
-    line-height: 1.56rem;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 .sec02 .calander-wrapper {
@@ -397,7 +397,7 @@ header .mo-gnb .sns li:last-child {
 }
 
 .sec02 .calander-wrapper h5 {
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -415,7 +415,7 @@ header .mo-gnb .sns li:last-child {
     background-color: #ccc;
     border-radius: 50%;
     opacity: 0.6;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-align: center;
     line-height: 32px;
 }
@@ -476,13 +476,13 @@ header .mo-gnb .sns li:last-child {
 }
 
 .sec02 .exhibit .exhibit-info .ex-name {
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 5px;
 }
 
 .sec02 .exhibit .exhibit-info .ex-place {
-    font-size: 0.75rem;
+    font-size: 12px;
     color: #999999;
 }
 
@@ -490,7 +490,7 @@ header .mo-gnb .sns li:last-child {
     width: 80%;
     height: 30px;
     margin: 0 auto;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-align: center;
     line-height: 30px;
     background-color: #ddd;
@@ -559,7 +559,7 @@ header .mo-gnb .sns li:last-child {
     position: relative;
     z-index: 30;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 20px;
     text-align: center;
     opacity: 0;
     transform: translateY(30%);
@@ -681,7 +681,7 @@ header .mo-gnb .sns li:last-child {
 .sec03 .lec-info,
 .sec04 .vr-info{
     text-align: center;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 25px;
     margin-top: 15px;
 }
@@ -748,7 +748,7 @@ header .mo-gnb .sns li:last-child {
 }
 
 .sec05 .news-column {
-    width: 50%-
+    width: 50%;
     padding: 3%;
 }
 
