@@ -16,3 +16,7 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family : '210 Soopilmyungjo 040';
+    src: url("../font/210 수필명조 040.ttf") format('truetype');
+}
