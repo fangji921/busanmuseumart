@@ -1,4 +1,4 @@
-@media all and (min-width:1200px) {
+@media all and (min-width:1024px) {
 
     /*pc 사이즈 작업*/
 
@@ -12,7 +12,7 @@
 
     .header-inner,
     .sec-inner,
-    .in_footer {
+    .footer-inner {
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -28,7 +28,8 @@
     /* quick menu start */
 
     
-    .quickmenu{
+    /* .quickmenu{
+        display: none;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         overflow: hidden;
@@ -79,7 +80,7 @@
         line-height: 30px;
         font-weight: 500;
         text-transform: uppercase;
-    }
+    } */
 
     /* quick menu end */
 
@@ -174,6 +175,11 @@
     /*header end*/
 
     /* section 01 start */
+    .sec01 {
+        background-image: url(../img/sec1_exhibit1_pc.jpg);
+        background-size: contain;
+    }
+
     .sec01 .main-wrapper:before {
         width: 220px;
         height: 220px;
@@ -320,11 +326,7 @@
     }
 
     .sec02 .calander-bar li {
-        width: 40px;
-        height: 40px;
         margin-right: 8px;
-        border-radius: 50%;
-        opacity: 0.4;
         font-size: 16px;
         text-align: center;
         line-height: 40px;
@@ -332,7 +334,7 @@
     }
 
     .sec02 .calander-bar li:hover {
-        opacity: 1;
+        opacity: 0.4;
     }
 
     .sec02 .exhibit-wrapper {

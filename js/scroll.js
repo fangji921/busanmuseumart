@@ -37,7 +37,6 @@ $(".sec02 .calander-wrapper").on("mousemove", function(e){
         distance = Math.abs(distance);
 
     var direction = startPos - currentPos;
-    console.log(direction)
     if(direction > 0 && startPos){//swipe left
         $(this).scrollLeft(scr + distance);
     } else if(direction < 0 && startPos){//swipe right

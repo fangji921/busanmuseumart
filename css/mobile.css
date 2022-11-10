@@ -34,7 +34,7 @@ section {
 
 .sec-inner,
 .header-inner,
-.in_footer {
+.footer-inner {
     width: 100%;
 }
 
@@ -183,8 +183,14 @@ header .mo-gnb .sns li:last-child {
 /*header end*/
 
 .sec01 {
-    background-color: #a1c780;
+    background-image: url(../img/sec1_exhibit1_mobile.jpg);
+    background-size: cover;
     overflow: hidden;
+}
+
+.sec01 .blur-overlay{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
 .sec01 .sec-inner {
@@ -346,8 +352,8 @@ header .mo-gnb .sns li:last-child {
 .sec02 .title-box {
     width: 75%;
     margin: 0 auto;
-    border-top: 1px solid #555555;
-    border-bottom: 1px solid #555555;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
     padding: 11px 0px;
     font-size: 0px;
 }
@@ -409,15 +415,26 @@ header .mo-gnb .sns li:last-child {
 
 .sec02 .calander-bar li {
     display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-right: 5px;
-    background-color: #ccc;
-    border-radius: 50%;
-    opacity: 0.6;
+    /* width: 40px; */
+    /* height: 40px; */
+    padding: 8px 12px;
+    margin-right: 8px;
+    /* background-color: #ccc; */
     font-size: 14px;
+    font-weight: 500;
     text-align: center;
     line-height: 32px;
+}
+
+/* addClass, removeClass 활용하기 */
+/* 배열의 (1-5)에게는 removeClass 적용해서 스타일 빼기 */
+
+.sec02 .calander-bar li.sun{
+    color: lightcoral;
+}
+
+.sec02 .calander-bar li.sat{
+    color: lightskyblue;
 }
 
 .sec02 .calander-bar li:last-child {
@@ -463,6 +480,8 @@ header .mo-gnb .sns li:last-child {
     width: 200px;
     height: 200px;
     margin: 0 auto 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
@@ -488,7 +507,8 @@ header .mo-gnb .sns li:last-child {
 
 .sec02 .sec-inner > .view-more {
     width: 80%;
-    height: 30px;
+    /* height: 30px; */
+    padding: 10px 15px;
     margin: 0 auto;
     font-size: 14px;
     text-align: center;
